@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'application'
+mainClassName = 'com.example.Bar'
+apply from: "${rootProject.projectDir}/gradle/javafx7.gradle"
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    // http://stackoverflow.com/questions/37902840/got-unsupported-class-file-version-52-0-after-including-a-module-to-a-project
+    sourceCompatibility = 1.7
+    targetCompatibility = 1.7
+}
