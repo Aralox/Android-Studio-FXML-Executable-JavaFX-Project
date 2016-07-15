@@ -1,5 +1,5 @@
 This was created for me to get help with proper JavaFX project structure in Android Studio.
-See my Stack Overflow question:
+See my Stack Overflow question: http://stackoverflow.com/questions/38394868/how-to-deploy-javafx-project-using-android-studio
 
 I've only included the files that I've added or changed, the rest are default.
 
